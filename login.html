@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- tailwind  -->
+    <h1 class="text-3xl font-bold underline"></h1>
+    <!-- daisy khala  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Manrope:wght@500;600;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="bg-black h-screen">
+    <header>
+        <h1 class="text-white barkshire text-center text-8xl font-medium py-10"><span class="text-[#FF5E19]">Welcome
+                to</span>
+            My
+            Website
+        </h1>
+    </header>
+    <main>
+        <section class="w-9/12 mx-auto bg-blue-100 text-center py-28  rounded-xl ">
+            <h1 class="text-7xl mb-10  font-bold">Please <span class="text-[#FF5E19]">Login</span></h1>
+            <input
+                class="block py-3 w-6/12 mx-auto text-2xl px-10 border-2 border-gray-900 mb-10 rounded-lg font-medium"
+                type="email" name="" id="input-email" placeholder="Your Email Address">
+            <input class="block py-3 w-6/12 mx-auto text-2xl px-10 border-2 border-gray-900 mb-10 rounded-lg "
+                class="block" type="password" name="" id="input-password" placeholder="Your Password">
+            <div class="card-actions w-full ">
+                <button class="bg-[#015196] rounded text-white hover:bg-[#A2A9AF] w-3/12 mx-auto py-3 text-2xl"
+                    id="btn-submit">Submit</button>
+            </div>
+        </section>
+    </main>
+    <script src="js/login.js"></script>
+</body>
+
+</html>
